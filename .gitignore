@@ -1,0 +1,33 @@
+target/
+bin/
+!.mvn/wrapper/maven-wrapper.jar
+
+### Mac ###
+.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+.checkstyle
+.pmd
+.pmdruleset.xml
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/

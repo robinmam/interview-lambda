@@ -27,7 +27,7 @@ public class LambdaTask {
 		return List.of();
 	}
 
-	public Map<String, Double> getWidgetWeightsByColour() {
+	public Map<String, Double> getTotalWeightByColour() {
 		// TODO
 		return Map.of();
 	}

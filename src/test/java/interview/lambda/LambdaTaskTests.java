@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.junit.jupiter.api.Test;
 
-class LambdaTasTests {
+class LambdaTaskTests {
 
 	private final LambdaTask task = new LambdaTask();
 
@@ -35,11 +35,11 @@ class LambdaTasTests {
 	@Test
 	void getWidgetWeightsByColour() {
 
-		final Map<String, Double> wieghts = task.getWidgetWeightsByColour();
-		assertNotNull(wieghts);
-		assertEquals(6.6d, wieghts.get("blue"), 0.0001);
-		assertEquals(11.9d, wieghts.get("green"), 0.0001);
-		assertEquals(10.3d, wieghts.get("red"), 0.0001);
+		final Map<String, Double> weights = task.getTotalWeightByColour();
+		assertNotNull(weights);
+		assertEquals(6.6d, weights.get("blue"), 0.0001);
+		assertEquals(11.9d, weights.get("green"), 0.0001);
+		assertEquals(10.3d, weights.get("red"), 0.0001);
 
 	}
 
